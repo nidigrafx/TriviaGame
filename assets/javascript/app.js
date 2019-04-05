@@ -18,31 +18,31 @@ $(document).ready(function(){
     timerId : '',
     // questions options and answers data
     questions: {
-      q1: 'Who is actually a chef?',
-      q2: 'What does Joey love to eat?',
-      q3: 'How many times has Ross been divorced?',
-      q4: 'How many types of towels does Monica have?',
-      q5: "Who stole Monica's thunder after she got engaged?",
-      q6: 'Who hates Thanksgiving?',
-      q7: "Who thinks they're always the last to find out everything?"
+      q1: 'Who was the first hobbit to appear in this movie?',
+      q2: 'What is the Elvish word for "friend"?',
+      q3: 'What does Pippin drop down the well in the mines of Moria?',
+      q4: 'What color horse was Legolas riding on when he came to Rivendell?',
+      q5: "In the beginning of the movie how many Rings are given to the Elves?",
+      q6: 'To which mountains did Gollum take the ring?',
+      q7: "What Dwarven Mines do the Fellowship travel through?"
     },
     options: {
-      q1: ['Monica', 'Chandler', 'Rachel', 'Ross'],
-      q2: ['Fish', 'Apples', 'Oranges', 'Sandwhiches'],
-      q3: ['5', '2', '1', '3'],
-      q4: ['3', '8', '11', '6'],
-      q5: ['Rachel','Phoebe','Emily','Carol'],
-      q6: ['Joey','Chandler','Rachel','Ross'],
-      q7: ['Ross', 'Phoebe', 'Monica','Chandler']
+      q1: ['Frodo', 'Bilbo', 'Peregrin', 'Meriadoc'],
+      q2: ['SouthFarthing', 'Moria', 'Gondor', 'Mellon'],
+      q3: ['a Bucket', 'A Skeleton', 'a Chain', 'A Skeleton, a Chain, and a Bucket'],
+      q4: ['White', 'Black', 'Brown', 'Speckeled'],
+      q5: ['5', '2', '1', '3'],
+      q6: ['Mount Doom','Moria','Misty Mountains','Thangorodrim'],
+      q7: ['Zirakzigil', 'Caradhras', 'Mount Doom','Moria']
     },
     answers: {
-      q1: 'Monica',
-      q2: 'Sandwhiches',
-      q3: '3',
-      q4: '11',
-      q5: 'Rachel',
-      q6: 'Chandler',
-      q7: 'Phoebe'
+      q1: 'Bilbo',
+      q2: 'Mellon',
+      q3: 'A Skeleton, a Chain, and a Bucket',
+      q4: 'White',
+      q5: '3',
+      q6: 'Misty Mountains',
+      q7: 'Moria'
     },
     // trivia methods
     // method to initialize game
@@ -76,7 +76,7 @@ $(document).ready(function(){
     nextQuestion : function(){
       
       // set timer to 20 seconds each question
-      trivia.timer = 10;
+      trivia.timer = 20;
        $('#timer').removeClass('last-seconds');
       $('#timer').text(trivia.timer);
       

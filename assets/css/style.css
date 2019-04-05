@@ -1,14 +1,25 @@
-body{
-	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQwlhxs5gueEnbTtnMlcSYCyu1XPgZ76KbjU5QF3oGYn7h3gAY);
-	text-align: center;
+body {
+	background-image: url(https://vignette.wikia.nocookie.net/lotr/images/8/87/Ringstrilogyposter.jpg/revision/latest?cb=20070806215413);
+    text-align: center;
+    background-size: cover;
 }
 
-.text-muted{
-	color: blue;
+.text-muted {
+	color: rgb(255, 0, 0);
 }
 .last-seconds{
   color: red;
 }
-.option{
+.option {
   margin: 15px;
 }
+
+.jumbotron {
+    background-image: url("../images/wk-hobbit1214-7.jpg");
+    background-size: center;
+    height: 100%;
+  }
+
+  .questions {
+   color: red;
+  }
