@@ -20,6 +20,13 @@ body {
     height: 100%;
   }
 
-  .questions {
+ h2 {
    color: red;
+  }
+
+  h3{
+    color: yellow;
+  }
+  p{
+    color: yellow;
   }
